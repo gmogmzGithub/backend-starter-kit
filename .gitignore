@@ -1,0 +1,67 @@
+# Compiled byte code
+*.class
+
+# Set of compiled resources
+target/
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Maven
+log/
+*.log
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.bak
+*.swp
+*~, *.bak, *.swp
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+*.log
+*.swp
+*~
+.DS_Store
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+nbproject/
+build/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.db
+
+# Spring Boot specific artifacts
+spring-boot-starter-*.jar
+spring-boot-autoconfigure-*.jar
+spring-boot-starter-tomcat/*.jar
+*.log
