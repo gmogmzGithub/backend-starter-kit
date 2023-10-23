@@ -27,7 +27,6 @@ public class HealthController {
             response.put("artifact", buildProperties.getArtifact());
             response.put("group", buildProperties.getGroup());
             response.put("description", env.getProperty("build.info.description"));
-            // Add other properties as needed
         } else {
             response.put("message", "Build properties not available.");
         }
